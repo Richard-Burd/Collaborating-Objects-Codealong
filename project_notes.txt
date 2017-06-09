@@ -1,0 +1,19 @@
+Go into the file folder using 'ls' & 'cd' such that the file folder name
+is shown next to the time slot prompt below like this:
+
+[21:20:02] Collaborating-Objects-Codealong
+// ♥ rspec
+
+...when you enter 'rspec' the spec files will run per Ruby convention.
+**********************************************************************
+Do this to run an actual Ruby file:
+
+[21:20:02] Collaborating-Objects-Codealong
+// ♥ ruby author.rb
+
+...this will run the 'author.rb' Ruby file.
+**********************************************************************
+[21:20:02] Collaborating-Objects-Codealong
+// ♥ pwd
+
+...do this "print working directory" to find out where the hell you are.

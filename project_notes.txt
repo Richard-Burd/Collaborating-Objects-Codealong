@@ -1,3 +1,7 @@
+The codealong video is available here:
+https://www.youtube.com/watch?v=iYcQ693LXck
+...we last left off on 11:31 / 1:18:21
+
 Go into the file folder using 'ls' & 'cd' such that the file folder name
 is shown next to the time slot prompt below like this:
 

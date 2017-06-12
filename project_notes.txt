@@ -1,6 +1,6 @@
 The codealong video is available here:
 https://www.youtube.com/watch?v=iYcQ693LXck
-...we last left off on 11:31 / 1:18:21
+...we last left off on 26:44 / 1:18:21
 
 Go into the file folder using 'ls' & 'cd' such that the file folder name
 is shown next to the time slot prompt below like this:
@@ -9,6 +9,11 @@ is shown next to the time slot prompt below like this:
 // ♥ rspec
 
 ...when you enter 'rspec' the spec files will run per Ruby convention.
+**********************************************************************
+[21:20:02] Collaborating-Objects-Codealong
+// ♥ rspec --format=documentation
+
+...this will give you more details on the rspec file-generated tests.
 **********************************************************************
 Do this to run an actual Ruby file:
 
@@ -21,3 +26,40 @@ Do this to run an actual Ruby file:
 // ♥ pwd
 
 ...do this "print working directory" to find out where the hell you are.
+**********************************************************************
+[21:20:02] Collaborating-Objects-Codealong
+// ♥ irb
+
+...do this to practice writing ruby scripts...type 'exit' when done.
+**********************************************************************
+As of 25:26 / 1:18:21 in the codealong video here:
+https://www.youtube.com/watch?v=iYcQ693LXck
+
+Here's a test you can run:
+-----------------
+[01:43:06] Collaborating-Objects-Codealong
+// ♥ rake console
+Welcome to Authors, Stories, and Catagories...
+[1] pry(main)> Author.new
+=> #<Author:0x00000000e48108 @stories=[]>
+[2] pry(main)> h = _
+=> #<Author:0x00000000e48108 @stories=[]>
+[3] pry(main)> h
+=> #<Author:0x00000000e48108 @stories=[]>
+[4] pry(main)> h.name = "Hemingway"
+=> "Hemingway"
+[5] pry(main)> s = Story.new
+=> #<Story:0x00000000bef8c0>
+[6] pry(main)> s.name = "Old Man and the Sea"
+=> "Old Man and the Sea"
+[7] pry(main)> h.add_story(s)
+=> [#<Story:0x00000000bef8c0 @name="Old Man and the Sea">]
+[8] pry(main)> h.stories
+=> [#<Story:0x00000000bef8c0 @name="Old Man and the Sea">]
+[9] pry(main)> h.stories.first.name
+=> "Old Man and the Sea"
+[10] pry(main)> h.add_story("For Whom the Bell Tolls")
+AssociationTypeMismatchError: AssociationTypeMismatchError
+from /home/richardburdx-30617/code/Collaborating-Objects-Codealong/lib/author.rb:13
+:in `add_story'
+**************************************************************
